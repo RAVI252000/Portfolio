@@ -93,11 +93,7 @@ const Certifications: React.FC = () => {
               </div>
 
               {/* Verify Link */}
-              <div className="pt-6 mt-6 border-t border-white/5 flex justify-between items-center">
-                <span className="text-[10px] text-text-secondary select-none font-mono">
-                  Credential ID: [Pending Update]
-                </span>
-                
+              <div className="pt-6 mt-6 border-t border-white/5 flex justify-end items-center">
                 {cert.verificationUrl !== '#' ? (
                   <a
                     href={cert.verificationUrl}
